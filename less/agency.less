@@ -4,8 +4,10 @@
 // Global Components
 
 body {
-    overflow-x: hidden;
-    .body-font;
+    text-align: center;
+   /* overflow-x: hidden;*/
+    color: #bdceaa;
+
 }
 
 .text-muted {
@@ -44,7 +46,7 @@ a.active {
     color: darken(@theme-primary, 10%);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
     .heading-font;
     font-weight: 700;
 }
@@ -53,9 +55,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+
+ h5 {
+   text-align: center;
+ }
+
 .bg-light-gray {
-    background-color: @gray-lighter;
+    background-color: #290404;
 }
+
 
 .bg-darkest-gray {
     background-color: @gray-darker;
@@ -72,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-xl {
     .button-variant(white; @theme-primary; @theme-primary);
     .heading-font;
-    font-weight: 700;
+    font-weight: 700;s
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
@@ -137,11 +145,13 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom {
         background-color: transparent;
-        padding: 25px 0;
+        padding: 30px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
-        transition: padding 0.3s;
+        transition: padding 4.3s;
         border: none;
+        line-height: 40px;
+        padding-bottom: 40px;
         .navbar-brand {
             font-size: 2em;
             -webkit-transition: all 0.3s;
@@ -174,9 +184,11 @@ header {
     .background-cover;
     text-align: center;
     color: white;
+
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+
         .intro-lead-in {
             .serif-font;
             font-style: italic;
@@ -709,30 +721,8 @@ ul.social-buttons {
     }
     .modal-backdrop {
         opacity: 0;
-        display: none;
+        display: noneiframe
     }
 }
 
-// Highlight Color Customization
 
-::-moz-selection {
-    text-shadow: none;
-    background: @theme-primary;
-}
-
-::selection {
-    text-shadow: none;
-    background: @theme-primary;
-}
-
-img::selection {
-    background: transparent;
-}
-
-img::-moz-selection {
-    background: transparent;
-}
-
-body {
-    webkit-tap-highlight-color: @theme-primary;
-}
