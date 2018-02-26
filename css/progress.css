@@ -1,0 +1,22 @@
+body{
+	background: yellow;
+}
+
+.img-centered {
+
+	border: 10px solid green;
+	margin-top: 22px;
+
+}
+
+ h1 {
+ 	font-family: sans-serif;
+ }
+/*img-centered {
+    border-width: 10px;
+    border-style: solid 10px;
+    border-color: black;
+    border-image: initial;
+}*/
+
+
