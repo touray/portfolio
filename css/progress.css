@@ -1,5 +1,5 @@
 body{
-	background: yellow;
+	background: #f1f1d0;
 }
 
 .img-centered {
@@ -19,4 +19,8 @@ body{
     border-image: initial;
 }*/
 
+.icon-back{
+	font-size: 100px;
 
+
+}
