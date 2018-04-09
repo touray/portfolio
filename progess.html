@@ -22,12 +22,19 @@
         <!-- Theme CSS -->
         <link href="css/agency.css" rel="stylesheet">
         <link href="css/progress.css" rel="stylesheet">
-
        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 </head>
 <body>
 	<h1>here we are in my progess</h1>
-	<img class="img-circle img-responsive img-centered" src="img/about/njieb.jpg" alt="">
+	<div class="col-md-4">
+                 <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x text-primary">hello>hello</i>
+              
+             <i class="fa fa-html5 fa-stack-1x fa-inverse">hello>hello</i>
+
+                    </span>                   
+                 </div> 
         
        <section id="about">
             <div class="container">
@@ -35,11 +42,11 @@
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading">About</h2>
                         <h3 class="section-subheading text-muted">My journey to europe. </h3>
-
-                        <a class="icon-back" href="index.html">
+                           <div class="col-lg-12 text-center">
+                            <a class="icon-back" href="index.html">
                             <i class="fas fa-angle-left"></i>
                         </a>
-                            
+                     </div>
                     </div>
                 </div>
                 <div class="row">
@@ -53,13 +60,11 @@
                                     <div class="timeline-heading">
                                         <h4>2008</h4>
                                         <h4 class="subheading"></h4>
-                                    </div>
-                                    <div class="timeline-body">
+                                        </div>
+                                        <div class="timeline-body">
                                         <p class="text-muted">
-                                            1987: I was born in Gambia until I decided to leave to see the world in 2008/2009
-                                        </p>
-                                     
-
+                                        </div>
+                                        <div class="row text-center">
                                     </div>
                                 </div>
                             </li>
@@ -138,6 +143,25 @@
                     </div>
                 </div>
                  </div>
+
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+    $("#target2").appendTo("#right-well");
+    $("#target5").clone().appendTo("#left-well");
+    $("#span").parent().css("background-color", "red");
+    $("#right-well").children().css("color", "orange");
+    $("#left-well").children().css("color", "green");
+    $(".target:nth-child(2)").addClass("animated bounce");
+    $(".target:even").addClass("animated shake");
+    $("body").addClass("animated hinge body");
+
+  });
+</script>
+
+
         </section>
 
 </body>
