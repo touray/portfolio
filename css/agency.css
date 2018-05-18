@@ -1,19 +1,14 @@
 body {
   text-align: center;
-  /* overflow-x: hidden;*/
-  color: #0EAF14;
-}
-body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
 }
-/*
-    position: absolute;
-    padding;padding-right:  89px;
-}*/
+.heading {
+  height: 300px;
+}
 .text-muted {
   color: #777777;
 }
@@ -303,7 +298,6 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
 }
 @media (min-width: 768px) {
   section {
@@ -433,7 +427,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #2fe437;
+  background-color: #333;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
