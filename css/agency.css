@@ -3,8 +3,12 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color:#0D5885;
+  color: #0bec15;
+  background-color: #2b0606;
+}
+a em {
+  color: #eee;
+  width: 22px;
 }
 .heading {
   height: 300px;
@@ -31,6 +35,7 @@ a.active {
 }
 a {
   color: #2fe437;
+  color: yellow;
 }
 a:hover,
 a:focus,
