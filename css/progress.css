@@ -1,26 +1,32 @@
-body{
-	background: #f1f1d0;
-}
+	/*body{
+	background: #0d6ab9;
+}*/
 
 .img-centered {
 
 	border: 10px solid green;
 	margin-top: 22px;
 
-}
+};
 
  h1 {
  	font-family: sans-serif;
- }
-/*img-centered {
-    border-width: 10px;
-    border-style: solid 10px;
+ };
+img-centered {
+
+    border-width: 5px;
+    border-style: solid 3px;
     border-color: black;
     border-image: initial;
-}*/
+};
 
-.icon-back{
-	font-size: 100px;
-
-
+.icon-back {
+ font-size: 80px;
+ color:#b37305;
 }
+
+
+h2 {
+	font-family: Helvetica;
+  color: #de6a6a;
+};
