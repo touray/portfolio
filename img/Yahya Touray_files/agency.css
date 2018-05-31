@@ -4,10 +4,11 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #0bec15;
-  background-color: #333;
+  background-color: #2b0606;
 }
-a {
+a em {
   color: #eee;
+  width: 22px;
 }
 .heading {
   height: 300px;
@@ -17,9 +18,6 @@ a {
 }
 .text-primary {
   color: #2fe437;
-}
-.text-shadow {
-  text-shadow: 4px 4px 4px black;
 }
 p {
   font-size: 14px;
@@ -37,6 +35,7 @@ a.active {
 }
 a {
   color: #2fe437;
+  color: yellow;
 }
 a:hover,
 a:focus,
@@ -210,6 +209,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
+    background-color: transparent;
     padding: 30px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -299,7 +299,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  line-height: 28px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -566,6 +566,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
+  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
